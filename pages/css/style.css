@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'GOST';
+  src:url('fonts/GOST_type_A.TTF');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #DEDEDE;
+}
+
+.contain {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+form {
+  margin: 20px;
+  width: 30%;
+}
+input {
+  margin: 0;
+  font-size: 20px;
+  font-family: GOST, Arial, sans-serif;
+  font-style: italic;
+}
+input[type="text"] {
+  width: 150px;
+}
+input[type="button"] {
+  font-size: 20px;
+  height: 27px;
+}
+p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: GOST, Arial, sans-serif;
+  font-style: italic;
+}
+hr {
+  margin: 30px 0 10px;
+}
+.shit input {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.fence {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.fence input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 80px;
+}
+.square {
+  position: relative;
+	width: 100px;
+	height: 200px;
+	background-color: grey;
+  margin: 5px 50px 50px;
+}
+/* .square_2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 5px 50px 50px;
+} */
+.arrow input {
+  width: 30px;
+  height: 30px;
+}
+.arrowRight_1, .arrowRight_2 {
+  position: absolute;
+  top: 35px;
+  left: 110px;
+}
+.arrowRight_1 {
+  top: 140px;
+}
+.arrowLeft_1, .arrowLeft_2 {
+  position: absolute;
+  top: 35px;
+  right: 110px;
+}
+.arrowLeft_1 {
+  top: 140px;
+}
+.arrowInfront_1, .arrowInfront_2{
+  position: absolute;
+  top: 35px;
+  left: 110px;
+}
+.arrowInfront_2 {
+  top: 140px;
+}
+.arrow p {
+  margin-bottom: 10px;
+}

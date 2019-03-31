@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href='css/style.css' rel="stylesheet">
+	<title>GP-M-C-500-2-serv-outside-wall</title>
+</head>
+<body>
+
+  <div class="contain">
+
+  	<canvas id="canvas"></canvas>
+
+
+  	<form>
+
+			<label>
+  			<p>Высота подъема</p>
+  				<input type="text" class='vText' value=''>
+  				<input type="button" class='vBut' value = 'Применить'>
+  		</label>
+
+  		<label>
+  			<p>Высота приямка</p>
+  			<input type="text" class='prText' style='background-color: lightgrey' value='200'>
+  			<input type="button" class='prBut' value = 'Применить'>
+  		</label>
+
+  		<label>
+  			<p>Ширина платформы</p>
+  			<input type="text" class='cabWidthText' value=''>
+  			<input type="button" class='cabWidthBut' value = 'Применить'>
+  		</label>
+
+			<label>
+				<p>Глубина платформы</p>
+				<input type="text" class='cabDepthText' value=''>
+				<input type="button" class='cabDepthBut' value = 'Применить'>
+			</label>
+
+			<label>
+  			<p>Минимальная высота<br>последней остановки</p>
+  				<input type="text" class='vMaxText' style='background-color: lightgrey' value = '1900'>
+  				<input type="button" class='vMaxBut' value = 'Применить'>
+  		</label>
+
+			<hr>
+
+			<div class="fence">
+				<p>Ограждения платформы</p>
+				<input type="button" class='fenceInfront' value = 'Спереди'>
+				<input type="button" class='fenceBehind' value = 'Сзади'><br>
+				<input type="button" class='fenceRight' value = 'Справа'>
+				<input type="button" class='fenceLeft' value = 'Слева'>
+			</div>
+
+			<hr>
+
+			<div class="shit">
+				<p>Щит управления</p>
+				<input type="button" class='shitUp' value = 'Вверху'><br>
+				<input type="button" class='shitDown' value = 'Внизу'>
+			</div>
+
+			<hr>
+
+			<div class="arrow">
+				<p>Направление погрузки/выгрузки</p>
+
+				<div class="square">
+					<input type="button" class='arrowRight_2' value='&rarr;'>
+					<input type="button" class='arrowRight_1' value='&rarr;'>
+					<input type="button" class='arrowLeft_2' value='&larr;'>
+					<input type="button" class='arrowLeft_1' value='&larr;'>
+				</div>
+
+				<div class="square">
+					<input type="button" class='arrowInfront_2' value='&rarr;'>
+					<input type="button" class='arrowInfront_1' value='&rarr;'>
+				</div>
+
+
+			</div>
+
+  	</form>
+
+
+
+  </div>
+
+	<script src='js/GP-M-C-500-2-serv-outside-wall.js'></script>
+
+
+</body>
+</html>
